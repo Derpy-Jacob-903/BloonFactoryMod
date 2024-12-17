@@ -18,7 +18,7 @@ namespace BloonFactoryMod.API.Behaviors
 
         public abstract Type SerializableType { get; }
         public abstract BehaviorType Type { get; }
-        //public abstract string Name { get; } //ModContent already has a name
+        public abstract string Name { get; }
         public abstract ModHelperPanel CreatePanel(CustomBloonBehaviorSerializable serializable, CustomBloonSave save);
 
         public abstract void AddToBloon(BloonModel bloon, CustomBloonBehaviorSerializable serializable);
